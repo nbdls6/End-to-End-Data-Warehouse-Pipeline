@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: marmot_final
+    description: "Raw NBA player statistics data from Kaggle"
+    database: MLDS430
+    schema: MARMOT_FINAL
+    tables:
+      - name: RAW_NBA_STATS
+        description: "Raw NBA player statistics (1984-2017) loaded from Kaggle"
+
